@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="status_bar_color">#ff0f1d33</color>
+    <color name="light_text">#ffF0EDFA</color>
+    <color name="text_line">#E7E7E7</color>
+    <color name="hint_text">#80FFFFFF</color>
+    <color name="dark_text">#828288</color>
+    <color name="dark_lock_stroke">#ffa8a8a8</color>
+    <color name="dark_lock_back">#ff979797</color>
+    <color name="dark_text_700">#6D6E73</color>
+    <color name="choice_100">#7D99D1</color>
+    <color name="choice_700">#ff556990</color>
+
+    <color name="choice_200">#ff5da398</color>
+    <color name="choice_600">#44736C</color>
+    #
+    <color name="delete">#ffE1594F</color>
+    <color name="add">#9CC36F</color>
+    <color name="bottom_nav_bar">#ffe8def8</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <color name="yellow_100">#FED537</color>
+    <color name="yellow_700">#988020</color>
+    <color name="back_area">#1F1F1F</color>
+    <color name="back_area2">#2B2B2B</color>
+    <color name="text_100">#EBEBEB</color>
+    <color name="text_700">#7F7F7F</color>
+
+
+</resources>

@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Card Holder</string>
+    <string name="err">Error</string>
+    <!-- ADD CARD FRAGMENT -->
+    <string name="name_add_card">KART EKLE</string>
+
+    <string name="card_name">Kart Adı</string>
+    <string name="card_number">1234 5678 9012 3456</string>
+    <string name="card_name_surname">İsim Soyisim</string>
+    <string name="card_month">01</string>
+    <string name="card_year">27</string>
+    <string name="card_div">/</string>
+    <string name="text_year_month_hint">Ay/Yıl</string>
+
+    <string name="add_new_card_name">Kartınıza bir isim verin</string>
+    <string name="add_new_card_number">Kartınızın Numarası</string>
+    <string name="add_new_card_name_surname">Kartınızın Üzerindeki Tam İsim</string>
+    <string name="add_new_card_month">Ay</string>
+    <string name="add_new_card_year">Yıl</string>
+    <string name="add_new_card_cvv">Cvv Codu</string>
+
+    <string name="card_add">Bu Kartı Kaydet</string>
+    <string name="update">Güncelle</string>
+
+    <string name="new_card_added">Yeni Kartınız Eklendi</string>
+    <string name="new_tc_added">Yeni Kimliğiniz Eklendi</string>
+    <string name="notAddedTc">Hatalı Kimlik Bilgisi. Lütfen Eksiksiz Kimliğinizi Giriniz. </string>
+    <string name="card_deleted">Kartınız Silindi</string>
+    <string name="card_updated">Kartınız Güncellendi</string>
+    <string name="tc_deleted">Kimliğiniz Silindi</string>
+
+    <string name="new_card_not_added">Tüm Alanları Doldurmalısınız!!</string>
+    <string name="new_card_not_added2">Kredi Kartı Numarası 16 Haneden Az Olamaz!</string>
+
+    <!-- CARD LİST FRAGMENT -->
+    <string name="name_card_list">KART LİSTEM</string>
+    <string name="name_card_list_control">Kart Listenize Kart Ekleyin..</string>
+
+    <!-- ME FRAGMENT -->
+    <string name="name_me">BEN</string>
+
+    <string name="tc_card">TC Kimlik Kartı</string>
+    <string name="tc_card_add">TC Kimlik Kartı Oluştur</string>
+    <string name="tc_no_hint">TC Kimlik No</string>
+    <string name="tc_no">12345678902</string>
+    <string name="tc_name_hint">Adı Soyadı</string>
+    <string name="tc_name">Adı Soyadı</string>
+    <string name="tc_birth_date_hint">Doğum Tarihi</string>
+    <string name="tc_birth_date">01.10.1960</string>
+    <string name="tc_seial_no_hint">Seri Numarası</string>
+    <string name="tc_serial_no">A145672T5</string>
+    <string name="tc_time_date_hint">Son Geçerlilik Tarihi</string>
+    <string name="tc_time_date">01.10.2027</string>
+    <string name="tc_mother_name_hint">Ana Adı</string>
+    <string name="tc_mother_name">Ana Adı</string>
+    <string name="tc_father_name_hint">Baba Adı</string>
+    <string name="tc_father_name">Baba Adı</string>
+    <string name="tc_sex">E/M</string>
+
+    <string name="sc_surucu">TC Sürücü Lisansı</string>
+    <string name="sc_surucu_add">TC Sürücü Lisansı Oluştur</string>
+    <string name="sc_give_date_hint">Veriliş Tarihi</string>
+    <string name="sc_give_date">01.10.2010</string>
+    <string name="sc_time_hint">Ehliyet Son Kullanım Tarihi</string>
+    <string name="sc_time">01.10.2028</string>
+    <string name="sc_province_hint">Ehliyet verilen il</string>
+    <string name="sc_province">80 Osmaniye</string>
+    <string name="sc_no_hint">Ehliyet Belge No</string>
+    <string name="sc_no">130360</string>
+
+    <!-- CARD DETAİL FRAGMENT -->
+    <string name="name_card_detail">KART DETAY</string>
+    <string name="card_delete">Bu Kartı Sil</string>
+    <string name="title_activity_lock">LockActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- LOCK FRAGMENT -->
+    <string name="btn_items">123456789</string>
+
+
+    <!-- IDENTITY CARD FRAGMENT -->
+    <string name="tc_identity_card">TC Kimlik Kartım</string>
+    <string name="tc_identity_save">Kimliğimi Kaydet</string>
+
+    <!-- DRİVER LİCENCE FRAGMENT -->
+    <string name="tc_driver_card">TC Sürücü Lisansı</string>
+    <string name="tc_driver_card_save">Sürücü Lisansımı Kaydet</string>
+
+
+    <!-- DRİVER LİCENCE FRAGMENT -->
+    <string name="sifre_degistir">Şifremi Değiştir</string>
+    <string name="eski_sifre">Eski Şifreniz</string>
+    <string name="yeni_sifre">Yeni Şifreniz</string>
+    <string name="yeni_sifre_tekrar">Yeni Şifreniz Tekrar</string>
+
+    <string name="sifre_guncellendi">Şifreniz Güncellendi</string>
+    <string name="sifre_guncelleme_hatasi">Hatalı Şifre Girdiniz!</string>
+    <string name="sifreler_ayni">Eski ve Yeni Şifre Aynı Olamaz!</string>
+    <string name="tanimsizKayit">Eksik veya Hatalı Giriş!</string>
+
+
+
+</resources>

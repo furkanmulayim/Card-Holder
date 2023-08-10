@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/lockFragment">
+
+    <fragment
+        android:id="@+id/addCardFragment"
+        android:name="com.furkanmulayim.cardholder.ui.add_future.AddCardFragment"
+        android:label="fragment_add_card"
+        tools:layout="@layout/fragment_add_card" >
+        <action
+            android:id="@+id/action_addCardFragment_to_cardListFragment"
+            app:destination="@id/cardListFragment"
+
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/cardListFragment"
+        android:name="com.furkanmulayim.cardholder.ui.list_future.CardListFragment"
+        android:label="fragment_card_list"
+        tools:layout="@layout/fragment_card_list" >
+        <action
+            android:id="@+id/action_cardListFragment_to_cardDetailsFragment"
+            app:destination="@id/cardDetailsFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/meFragment"
+        android:name="com.furkanmulayim.cardholder.ui.me_future.MeFragment"
+        android:label="fragment_me"
+        tools:layout="@layout/fragment_me" >
+        <action
+            android:id="@+id/action_meFragment_to_driverLicenceFragment"
+            app:destination="@id/driverLicenceFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_meFragment_to_passUpdateFragment"
+            app:destination="@id/passUpdateFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/cardDetailsFragment"
+        android:name="com.furkanmulayim.cardholder.ui.detail_future.CardDetailsFragment"
+        android:label="fragment_card_details"
+        tools:layout="@layout/fragment_card_details" >
+        <argument
+            android:name="card"
+            app:argType="com.furkanmulayim.cardholder.data.entity.Cards" />
+    </fragment>
+    <fragment
+        android:id="@+id/lockFragment"
+        android:name="com.furkanmulayim.cardholder.ui.lock_future.LockFragment"
+        android:label="fragment_lock"
+        tools:layout="@layout/fragment_lock" >
+        <action
+            android:id="@+id/action_lockFragment_to_cardListFragment"
+            app:destination="@id/cardListFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/driverLicenceFragment"
+        android:name="com.furkanmulayim.cardholder.ui.tc_future.DriverLicenceFragment"
+        android:label="DriverLicenceFragment" >
+        <action
+            android:id="@+id/action_driverLicenceFragment_to_meFragment"
+            app:destination="@id/meFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/passUpdateFragment"
+        android:name="com.furkanmulayim.cardholder.ui.pass_update_future.PassUpdateFragment"
+        android:label="PassUpdateFragment" />
+</navigation>

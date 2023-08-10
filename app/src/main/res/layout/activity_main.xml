@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/choice_700"
+        tools:context=".ui.activity.MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/screen_back"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <fragment
+            android:id="@+id/fragmentContainerView"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:defaultNavHost="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:navGraph="@navigation/navigation" />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/coordinatorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                app:itemRippleColor="#00E8DEF8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/bottom_navigation_menu" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/itemFloatActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/choice_700"
+            android:foreground="@drawable/item_plus"
+            android:foregroundGravity="center"
+            android:visibility="visible"
+            app:fabCustomSize="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/coordinatorLayout"
+            app:maxImageSize="34dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/itemFloatActionButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:backgroundTint="@color/choice_100"
+            android:foreground="@drawable/item_card_list"
+            android:foregroundGravity="center"
+            android:visibility="visible"
+            app:fabCustomSize="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/itemFloatActionButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/coordinatorLayout"
+            app:maxImageSize="34dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/itemFloatActionButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/choice_100"
+            android:foreground="@drawable/item_me"
+            android:foregroundGravity="center"
+            android:visibility="visible"
+            app:fabCustomSize="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/itemFloatActionButton"
+            app:layout_constraintTop_toTopOf="@+id/coordinatorLayout"
+            app:maxImageSize="34dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

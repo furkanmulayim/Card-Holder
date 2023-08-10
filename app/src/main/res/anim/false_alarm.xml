@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator">
+
+    <!-- Rightward shake animation on the X-axis -->
+    <translate
+        android:duration="50"
+        android:fromXDelta="20"
+        android:repeatCount="5"
+        android:repeatMode="reverse"
+        android:toXDelta="0" />
+
+
+</set>
